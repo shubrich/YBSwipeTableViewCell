@@ -19,6 +19,12 @@
 		405CB96B1872ADB000C880B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405CB9531872ADB000C880B5 /* UIKit.framework */; };
 		405CB9731872ADB000C880B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 405CB9711872ADB000C880B5 /* InfoPlist.strings */; };
 		405CB9751872ADB000C880B5 /* YBSwipeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9741872ADB000C880B5 /* YBSwipeTableViewTests.m */; };
+		405CB9891872B33600C880B5 /* YBCellSwipeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9801872B33600C880B5 /* YBCellSwipeHandler.m */; };
+		405CB98A1872B33600C880B5 /* YBTransactionListBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9821872B33600C880B5 /* YBTransactionListBackView.m */; };
+		405CB98B1872B33600C880B5 /* YBTransactionListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9841872B33600C880B5 /* YBTransactionListCell.m */; };
+		405CB98C1872B33600C880B5 /* YBTransactionListFrontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9861872B33600C880B5 /* YBTransactionListFrontView.m */; };
+		405CB98D1872B33600C880B5 /* YBTransactionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9881872B33600C880B5 /* YBTransactionListViewController.m */; };
+		405CB9921872BE1C00C880B5 /* YBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CB9911872BE1C00C880B5 /* YBDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,20 @@
 		405CB9701872ADB000C880B5 /* YBSwipeTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YBSwipeTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		405CB9721872ADB000C880B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		405CB9741872ADB000C880B5 /* YBSwipeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSwipeTableViewTests.m; sourceTree = "<group>"; };
+		405CB97F1872B33600C880B5 /* YBCellSwipeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCellSwipeHandler.h; sourceTree = "<group>"; };
+		405CB9801872B33600C880B5 /* YBCellSwipeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCellSwipeHandler.m; sourceTree = "<group>"; };
+		405CB9811872B33600C880B5 /* YBTransactionListBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTransactionListBackView.h; sourceTree = "<group>"; };
+		405CB9821872B33600C880B5 /* YBTransactionListBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBTransactionListBackView.m; sourceTree = "<group>"; };
+		405CB9831872B33600C880B5 /* YBTransactionListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTransactionListCell.h; sourceTree = "<group>"; };
+		405CB9841872B33600C880B5 /* YBTransactionListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBTransactionListCell.m; sourceTree = "<group>"; };
+		405CB9851872B33600C880B5 /* YBTransactionListFrontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTransactionListFrontView.h; sourceTree = "<group>"; };
+		405CB9861872B33600C880B5 /* YBTransactionListFrontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBTransactionListFrontView.m; sourceTree = "<group>"; };
+		405CB9871872B33600C880B5 /* YBTransactionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTransactionListViewController.h; sourceTree = "<group>"; };
+		405CB9881872B33600C880B5 /* YBTransactionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBTransactionListViewController.m; sourceTree = "<group>"; };
+		405CB98E1872B6AB00C880B5 /* YBSwipeCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSwipeCellProtocol.h; sourceTree = "<group>"; };
+		405CB98F1872B6D800C880B5 /* YBSwipeTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSwipeTableViewProtocol.h; sourceTree = "<group>"; };
+		405CB9901872BE1C00C880B5 /* YBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDetailViewController.h; sourceTree = "<group>"; };
+		405CB9911872BE1C00C880B5 /* YBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,7 @@
 		405CB9551872ADB000C880B5 /* YBSwipeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				405CB97E1872B33600C880B5 /* Classes */,
 				405CB95E1872ADB000C880B5 /* YBAppDelegate.h */,
 				405CB95F1872ADB000C880B5 /* YBAppDelegate.m */,
 				405CB9611872ADB000C880B5 /* Images.xcassets */,
@@ -142,6 +163,27 @@
 				405CB9711872ADB000C880B5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		405CB97E1872B33600C880B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				405CB98F1872B6D800C880B5 /* YBSwipeTableViewProtocol.h */,
+				405CB98E1872B6AB00C880B5 /* YBSwipeCellProtocol.h */,
+				405CB97F1872B33600C880B5 /* YBCellSwipeHandler.h */,
+				405CB9801872B33600C880B5 /* YBCellSwipeHandler.m */,
+				405CB9811872B33600C880B5 /* YBTransactionListBackView.h */,
+				405CB9821872B33600C880B5 /* YBTransactionListBackView.m */,
+				405CB9831872B33600C880B5 /* YBTransactionListCell.h */,
+				405CB9841872B33600C880B5 /* YBTransactionListCell.m */,
+				405CB9851872B33600C880B5 /* YBTransactionListFrontView.h */,
+				405CB9861872B33600C880B5 /* YBTransactionListFrontView.m */,
+				405CB9871872B33600C880B5 /* YBTransactionListViewController.h */,
+				405CB9881872B33600C880B5 /* YBTransactionListViewController.m */,
+				405CB9901872BE1C00C880B5 /* YBDetailViewController.h */,
+				405CB9911872BE1C00C880B5 /* YBDetailViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405CB9921872BE1C00C880B5 /* YBDetailViewController.m in Sources */,
+				405CB98C1872B33600C880B5 /* YBTransactionListFrontView.m in Sources */,
 				405CB95C1872ADB000C880B5 /* main.m in Sources */,
+				405CB9891872B33600C880B5 /* YBCellSwipeHandler.m in Sources */,
+				405CB98B1872B33600C880B5 /* YBTransactionListCell.m in Sources */,
 				405CB9601872ADB000C880B5 /* YBAppDelegate.m in Sources */,
+				405CB98D1872B33600C880B5 /* YBTransactionListViewController.m in Sources */,
+				405CB98A1872B33600C880B5 /* YBTransactionListBackView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -349,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
